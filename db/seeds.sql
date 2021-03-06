@@ -13,7 +13,7 @@ VALUES
 
 INSERT INTO roles (title, salary, id)
 VALUES
-    ("District Manager", 48000, 1),
+    ("Regional Manager", 48000, 1),
     ("Salesperson", 45000, 2),
     ("Head Accountant", 43000, 3),
     ("Accountant", 41000, 4),
