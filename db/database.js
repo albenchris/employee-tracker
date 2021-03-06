@@ -8,12 +8,4 @@ const db = mySQL.createConnection({
     database: "companyDB"
 });
 
-db.connect(err => {
-    if (err) {
-        console.log(`Error: ${err.message}`);
-        return;
-    }
-    console.log(`Connacted as ID ${connection.threadId}`);
-});
-
 module.exports = db;
