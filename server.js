@@ -18,7 +18,8 @@ db.connect(err => {
         return;
     }
     console.log(`Connected to the company database`);
-    promptUser();
+    promptUser()
+        .catch(err => console.log(err));
 });
 
 // USE promptUser
