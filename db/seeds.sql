@@ -12,6 +12,7 @@ VALUES
 INSERT INTO roles (title, salary, department_name, manager_id)
 VALUES
     ("Regional Manager", 48000, "Administration", 1),
+    ("A.R.M", 45000, "Sales", NULL),
     ("Salesperson", 45000, "Sales", NULL),
     ("Head Accountant", 43000, "Accounting", 2),
     ("Accountant", 41000, "Accounting", NULL),
