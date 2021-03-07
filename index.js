@@ -10,7 +10,7 @@ db.connect(err => {
         console.log(`Error: ${err.message}`);
         return;
     }
-    console.log(`Connected to the company database`);
+
     promptUser()
         .catch(err => console.log(err));
 });
