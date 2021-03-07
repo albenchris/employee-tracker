@@ -11,6 +11,8 @@ const promptUser = require("./lib/menu");
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+// ============== MAIN FUNCTIONALITY ============================
+
 // CONNECT to database
 db.connect(err => {
     if (err) {
@@ -22,8 +24,7 @@ db.connect(err => {
         .catch(err => console.log(err));
 });
 
-// USE promptUser
-// app.use(promptUser);
+// ===============================================================
 
 // DEFAULT response for any request not found (catch all)
 app.use((req, res) => {
